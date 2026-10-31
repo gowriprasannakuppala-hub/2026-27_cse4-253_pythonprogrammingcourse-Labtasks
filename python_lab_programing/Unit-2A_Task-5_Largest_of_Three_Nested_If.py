@@ -1,0 +1,15 @@
+# largest of three numbers using nested if 
+x = int (input("Enter  first number :"))
+y = int (input(" Enter second number :"))
+z = int (input(" Enter third number :"))
+if x >= y:
+  if x >= z:
+    largest = x
+  else:
+    largest = z
+else: 
+  if y>=z:
+    largest = y
+  else:
+    largest = z
+print(f"{largest}  is largest  number among {x},{y},{z} ")
